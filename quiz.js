@@ -9,5 +9,5 @@ function checkAnswer() {
         document.querySelector('#feedback').textContent="That's incorrect. Try again!";
 }
 }
-const submitAnswer=document.querySelector('#submit-answer');
-submitAnswer.addEventListener('click',checkAnswer)
+const submitAnswer=document.getElementById('#submit-answer');
+submitAnswer.addEventListener('click',checkAnswer);
